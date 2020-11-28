@@ -68,6 +68,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="estilos\inicio.css" />
     <Content Include="forms\form_login.aspx" />
     <Content Include="forms\registrarse.aspx" />
     <Content Include="Global.asax" />
@@ -115,6 +116,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="img\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>

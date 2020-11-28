@@ -6,7 +6,7 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>Login BlueStore</title>
-     <link rel="stylesheet" href="../estilos/form_style.css" type="text/css">
+     <link rel="stylesheet" href="../estilos/form_style.css" type="text/css" />
 </head>
 <body>
     <form id="form1" runat="server">
@@ -34,8 +34,6 @@
                         <a href="registrarse.aspx">Registrase</a>
                     </div>
                 </main>
-
-               
 
              </div>
             <!-- Mensaje de error-->
