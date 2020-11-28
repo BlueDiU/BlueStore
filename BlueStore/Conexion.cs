@@ -9,7 +9,7 @@ using MySql.Data.MySqlClient;
 
 class Conexion
 {
-    const string var_ruta = "server=localhost;user id=root;password=kernelpanic2311;persist security info=True;database=name";
+    const string var_ruta = "server=localhost;user id=root;password=kernelpanic2311;persist security info=True;database=bluestore";
     DataSet ds = new DataSet();
     MySql.Data.MySqlClient.MySqlConnection cnSQL = new MySql.Data.MySqlClient.MySqlConnection(var_ruta);
     MySql.Data.MySqlClient.MySqlCommand cmSQL = new MySql.Data.MySqlClient.MySqlCommand();

@@ -17,24 +17,29 @@
                     <h2>Iniciar sesión en BlueStore</h2>
                     <div class="form-control">
                         <label for="username">Nombre</label>
-                        <asp:TextBox ID="TextBox1" runat="server" 
+                        <asp:TextBox ID="txtNombreL" runat="server" 
                             type="text" class="input" placeholder="Ingresa tu Nombre" required></asp:TextBox>
 
                     </div>
                     <div class="form-control">
                         <label for="password">Contraseña</label>
-                        <asp:TextBox ID="TextBox4" runat="server" type="password" class="input" placeholder="Ingresa tu contraseña" required></asp:TextBox>
+                        <asp:TextBox ID="txtContraL" runat="server" type="password" class="input" placeholder="Ingresa tu contraseña" required></asp:TextBox>
                     </div>
 
                     <!-- Boton de Asp -->
-                    <asp:Button ID="Button1" runat="server" Text="Registrase" type="submit" class="btn-submit"/>
+                    <asp:Button ID="BtnIniciarS" runat="server" Text="Iniciar sesión" type="submit" class="btn-submit" OnClick="BtnIniciarS_Click"/>
 
                     <div class="form-register flex">
                         <label>¿No tienes una cuenta?</label>
                         <a href="registrarse.aspx">Registrase</a>
                     </div>
                 </main>
+
+               
+
              </div>
+            <!-- Mensaje de error-->
+             <asp:Label ID="lblMensaje" class="alert" runat="server" Text=""></asp:Label>
 
         </div>
     </form>

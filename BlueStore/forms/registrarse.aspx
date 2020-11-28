@@ -39,8 +39,8 @@
                      <div class="form-control">
                         <label for="password">Sexo</label>
                          <div class="flex">
-                              <asp:RadioButton ID="rdbMasculino" runat="server" Text="Masculino" GroupName="sexo" />
-                             <asp:RadioButton ID="rdbFemenino" runat="server" Text="Femenino" GroupName="sexo" />
+                              <asp:RadioButton ID="rdbMasculino" required runat="server" Text="Masculino" GroupName="sexo" />
+                             <asp:RadioButton ID="rdbFemenino" required runat="server" Text="Femenino" GroupName="sexo" />
                          </div>
                         
                     </div>

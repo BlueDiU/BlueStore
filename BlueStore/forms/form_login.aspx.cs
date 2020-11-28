@@ -11,7 +11,27 @@ namespace BlueStore.forms
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            lblMensaje.Text = "";
+        }
 
+        protected void BtnIniciarS_Click(object sender, EventArgs e)
+        {
+            CUsuarios u = new CUsuarios();
+            string nombre = txtNombreL.Text;
+            string password = txtContraL.Text;
+
+            if (nombre != "" && password != "")
+            {
+                if (u.ValidarUsuario(nombre, password) == true)
+                {
+                    Response.Redirect("../inicio.aspx");
+                } else
+                {
+                    lblMensaje.Text = "Nombre o contraseña no validos";
+                }
+            }
+
+           
         }
     }
 }
