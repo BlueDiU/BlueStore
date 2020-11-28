@@ -68,6 +68,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="acerca_de.aspx" />
+    <Content Include="estilos\acerca.css" />
     <Content Include="estilos\inicio.css" />
     <Content Include="forms\form_login.aspx" />
     <Content Include="forms\registrarse.aspx" />
@@ -77,6 +79,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="acerca_de.aspx.cs">
+      <DependentUpon>acerca_de.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="acerca_de.aspx.designer.cs">
+      <DependentUpon>acerca_de.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Conexion.cs" />
     <Compile Include="forms\CUsuarios.cs" />
     <Compile Include="forms\form_login.aspx.cs">
