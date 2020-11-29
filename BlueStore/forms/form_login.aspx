@@ -31,7 +31,7 @@
 
                     <div class="form-register flex">
                         <label>¿No tienes una cuenta?</label>
-                        <a href="registrarse.aspx">Registrase</a>
+                        <a href="registrarse.aspx">Registrarse</a>
                     </div>
                 </main>
 

@@ -29,7 +29,7 @@
                 </div>
                 <div class="info">
                     <h3>Frase mega épica Lorem, ipsum dolor Lorem, ipsum.</h3>
-                    <a href="#">Empieza a comprar</a>
+                    <a href="productos.aspx">Empieza a comprar</a>
                 </div>
             </main>
 
