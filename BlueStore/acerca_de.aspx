@@ -17,8 +17,8 @@
                 <nav class="nav">
                     <ul>
                         <li><a href="./inicio.aspx">Inicio</a></li>
-                        <li><a href="#">Productos</a></li>
-                        <li><a href="#">Acerca de</a></li>
+                        <li><a href="productos.aspx">Productos</a></li>
+                        <li><a href="acerca_de.aspx">Acerca de</a></li>
                     </ul>
                 </nav>
             </header>

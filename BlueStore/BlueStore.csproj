@@ -71,11 +71,14 @@
     <Content Include="acerca_de.aspx" />
     <Content Include="estilos\acerca.css" />
     <Content Include="estilos\inicio.css" />
+    <Content Include="estilos\productos.css" />
     <Content Include="forms\form_login.aspx" />
     <Content Include="forms\registrarse.aspx" />
     <Content Include="Global.asax" />
     <Content Include="inicio.aspx" />
     <Content Include="estilos\form_style.css" />
+    <Content Include="js\productos.js" />
+    <Content Include="productos.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -111,6 +114,13 @@
     </Compile>
     <Compile Include="inicio.aspx.designer.cs">
       <DependentUpon>inicio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="productos.aspx.cs">
+      <DependentUpon>productos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="productos.aspx.designer.cs">
+      <DependentUpon>productos.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
