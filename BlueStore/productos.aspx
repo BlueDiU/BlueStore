@@ -13,7 +13,7 @@
         <div>
             <!--inicio codigo para html-->
             <header>
-                <img src="img/bluestore.jpeg" alt="bluestore" />
+                <img src="../img/frame1.svg" alt="bluestore" />
                 <nav class="nav">
                     <ul>
                         <li><a href="inicio.aspx">Inicio</a></li>

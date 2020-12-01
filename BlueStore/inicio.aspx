@@ -13,7 +13,7 @@
         <div>
 
             <header>
-                <img src="./img/bluestore.jpeg" alt="bluestore"/>
+                <img src="../img/frame1.svg" alt="bluestore"/>
                 <nav class="nav">
                     <ul>
                         <li><a href="inicio.aspx">Inicio</a></li>
@@ -28,7 +28,7 @@
                     <img src="./img/inicioImagen.svg" alt="bluestore"/>
                 </div>
                 <div class="info">
-                    <h3>Frase mega épica Lorem, ipsum dolor Lorem, ipsum.</h3>
+                    <h3>"No puedes comprar la felicidad, pero si puedes comprar ropa".</h3>
                     <a href="productos.aspx">Empieza a comprar</a>
                 </div>
             </main>

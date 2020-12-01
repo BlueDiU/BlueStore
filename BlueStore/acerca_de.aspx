@@ -13,7 +13,7 @@
         <div>
 
             <header>
-                <img src="./img/bluestore.jpeg" alt="bluestore">
+                <img src="../img/frame1.svg" alt="bluestore">
                 <nav class="nav">
                     <ul>
                         <li><a href="./inicio.aspx">Inicio</a></li>
@@ -29,10 +29,11 @@
                     <img src="./img/about.svg" alt="bluestore"/>
                 </div>
                 <div class="info">
-                    <img src="./img/bluestore.jpeg" alt="bluestore"/>
+                    <img src="../img/frame1.svg" alt="bluestore"/>
                     <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab magnam nam consequuntur enim eveniet omnis
-                nobis!
+                        ¿Quienes somos?
+
+                        como Blue Store Cada una de nuestras colecciones de Mujeres y Hombres, mediante el cuidado de los materiales, tratamos de reflejar nuestra atención a los pequeños detalles y un diseño moderno, con nuestro carácter mediterráneo y contemporáneo. 
                     </p>
                 </div>
             </main>
