@@ -83,18 +83,19 @@ h2 {
     color: whitesmoke;
 }
 
-.mensaje.hidden {
-    visibility: hidden;
-    opacity: 0;
-}
-
 .separar {
-   border:1px solid gray;
-   border-radius: 6px;
-   width: 40%;
-   margin-bottom: 10px;
+    border: 1px solid gray;
+    border-radius: 6px;
+    width: 40%;
+    margin-bottom: 10px;
 }
 
-.grid-container {
-    border: 1px solid red;
+.grid-container div {
+    padding: 1rem 2rem;
+    background-color: #E5E7E9;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

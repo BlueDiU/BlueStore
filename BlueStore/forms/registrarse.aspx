@@ -47,8 +47,8 @@
 
                     <!-- Boton de Asp -->
                     <asp:Button ID="BtnRegistrar" runat="server" Text="Registrase" type="submit" class="btn-submit" OnClick="BtnRegistrar_Click"/>
-                 <%-- <button type="submit" class="btn-submit">Registrarse</button>--%>
                 </main>
+                 <asp:Label ID="lblMensaje" class="mensaje" runat="server" Text=""></asp:Label>
              </div>
 
         </div>

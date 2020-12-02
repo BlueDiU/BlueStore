@@ -81,7 +81,7 @@
     <Content Include="Global.asax" />
     <Content Include="inicio.aspx" />
     <Content Include="estilos\form_style.css" />
-    <Content Include="js\productos.js" />
+    <Content Include="js\index.js" />
     <Content Include="productos.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -120,6 +120,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="IEsValido.cs" />
     <Compile Include="inicio.aspx.cs">
       <DependentUpon>inicio.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

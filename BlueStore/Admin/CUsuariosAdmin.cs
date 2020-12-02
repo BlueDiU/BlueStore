@@ -1,4 +1,6 @@
-﻿namespace BlueStore.Admin
+﻿using System.Data;
+
+namespace BlueStore.Admin
 {
     public class CUsuariosAdmin
     {
@@ -21,6 +23,12 @@
         public void ModificarUsuario(int id, string nombre, string apellido, string correo, string password, string sexo)
         {
             c.Operacion("UPDATE usuarios set nombre='" + nombre + "',apellido='" + apellido + "',correo='" + correo + "',password='" + password + "',sexo='" + sexo + "' WHERE id=" + id + " ");
+        }
+
+        // Método para cargar el DGV
+        public DataSet DataUsuarios()
+        {
+            return c.Buscar("SELECT * FROM usuarios", "usuarios");
         }
     }
 }

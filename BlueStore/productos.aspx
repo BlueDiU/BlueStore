@@ -97,7 +97,7 @@
                 <p class="derechos">&copy; BlueStore, todos los derechos reservados | Aviso Legal</p>
             </footer>
 
-            <script src="./js/productos.js"></script>
+            <script src="./js/index.js"></script>
 
             <!--fin codigo para html-->
         </div>

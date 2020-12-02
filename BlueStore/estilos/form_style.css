@@ -10,6 +10,16 @@
    margin-top: 27px;
 }
 
+.mensaje {
+    /*background-color: #CB4335;*/
+    padding: 0.4rem;
+    margin: 10px;
+    border-radius: 5px;
+    width: 40%;
+    text-align: center;
+    color: black;
+}
+
 body {
     background-color: #f9fafb;
     font-family: 'Open Sans', sans-serif;
