@@ -1,6 +1,16 @@
 ﻿const d = document,
     w = window;
 
+/* Prueba
+const $inputs = d.querySelectorAll('.input-db');
+
+$inputs.forEach(input => {
+    input.addEventListener('click', e => {
+        e.preventDefault();
+        console.log("hola")
+    });
+}); */
+
 // selector de mi barra de navegacion
 const $navbar = d.querySelector('.nav-products');
 
