@@ -19,6 +19,22 @@ const scrollNavbar = () => {
     });
 };
 
+/* Codigo para el boton de admin */
+const $admin = d.querySelector('.admin-manager');
+
+const shortCut = (e) => {
+    if (e.key === 'm' && e.ctrlKey) {
+        $admin.classList.remove('hidden');
+        alert('Accediendo a opciones de desarrollador');
+    }
+};
+
+
 d.addEventListener('DOMContentLoaded', () => {
     scrollNavbar();
+});
+
+// Evento al pulsar el teclado
+d.addEventListener('keydown', (e) => {
+    shortCut(e);
 });

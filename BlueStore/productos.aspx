@@ -43,17 +43,18 @@
                 <div class="section">
                     <div class="card">
                         <img src="https://ae01.alicdn.com/kf/H55a330a1ef76441192aef1eb1aea559eK/Camisa-de-mezclilla-para-hombre-2020-primavera-oto-o-camisa-delgada-para-hombre-camisa-de-manga.jpg_q50.jpg"
-                            alt="camisa">
+                            alt="camisa" />
 
                         <div class="product-info">
                             <h4>Camisas Azul</h4>
                             <p><strong>Precio:</strong> $20</p>
                         </div>
+
                         <button class="btn-comprar">Comprar ahora</button>
                     </div>
 
                     <div class="card">
-                        <img src="https://ae01.alicdn.com/kf/H55a330a1ef76441192aef1eb1aea559eK/Camisa-de-mezclilla-para-hombre-2020-primavera-oto-o-camisa-delgada-para-hombre-camisa-de-manga.jpg_q50.jpg"
+                        <img src="" />
                             alt="camisa">
 
                         <div class="product-info">
@@ -62,6 +63,7 @@
                         </div>
                         <button class="btn-comprar">Comprar ahora</button>
                     </div>
+
                 </div>
                 <!-- Seccion para pantalones -->
                 <h2 id="seccion2">Pantalones</h2>
@@ -88,6 +90,9 @@
                 <div class="seccion">
                 </div>
             </div>
+
+            <!-- Al pulsar ctrl+u se muestra el boton -->
+            <a class="admin-manager hidden" href="./Admin/administrador_usuarios.aspx">⚙️</a>
 
             <!-- Pie de pagina -->
             <footer>
