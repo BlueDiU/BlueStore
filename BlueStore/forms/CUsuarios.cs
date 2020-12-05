@@ -28,5 +28,11 @@ namespace BlueStore.forms
             else
                 return false;
         }
+        // Método para insertar pago
+        public void IngresarPago(string pago, int id)
+        {
+            c.Operacion("UPDATE usuarios set total='" + pago + "' WHERE (id =" + id + ") ");
+            //c.Operacion("UPDATE `bluestore`.`usuarios` SET `total` = '" + pago + "' WHERE (`id` = '" + id + "') ");
+        }
     }
 }

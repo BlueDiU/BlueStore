@@ -24,6 +24,51 @@ namespace BlueStore
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
+        /// Control txtUserPago.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtUserPago;
+
+        /// <summary>
+        /// Control txtPasswordPago.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtPasswordPago;
+
+        /// <summary>
+        /// Control lblTotalPago.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblTotalPago;
+
+        /// <summary>
+        /// Control BtnPagarTotal.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button BtnPagarTotal;
+
+        /// <summary>
+        /// Control lblConfirmacion.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblConfirmacion;
+
+        /// <summary>
         /// Control lblCamisa1.
         /// </summary>
         /// <remarks>
@@ -42,13 +87,13 @@ namespace BlueStore
         protected global::System.Web.UI.WebControls.Label lblCPrecio1;
 
         /// <summary>
-        /// Control Button1.
+        /// Control BtnCamisa1.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
+        protected global::System.Web.UI.WebControls.Button BtnCamisa1;
 
         /// <summary>
         /// Control lblCamisa2.
@@ -69,13 +114,13 @@ namespace BlueStore
         protected global::System.Web.UI.WebControls.Label lblCPrecio2;
 
         /// <summary>
-        /// Control Button2.
+        /// Control BtnCamisa2.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button2;
+        protected global::System.Web.UI.WebControls.Button BtnCamisa2;
 
         /// <summary>
         /// Control lblCamisa3.
@@ -96,13 +141,13 @@ namespace BlueStore
         protected global::System.Web.UI.WebControls.Label lblCPrecio3;
 
         /// <summary>
-        /// Control Button3.
+        /// Control BtnCamisa3.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button3;
+        protected global::System.Web.UI.WebControls.Button BtnCamisa3;
 
         /// <summary>
         /// Control lblPantalon1.
@@ -123,13 +168,13 @@ namespace BlueStore
         protected global::System.Web.UI.WebControls.Label lblPPrecio1;
 
         /// <summary>
-        /// Control Button4.
+        /// Control BtnPantalon1.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button4;
+        protected global::System.Web.UI.WebControls.Button BtnPantalon1;
 
         /// <summary>
         /// Control lblPantalon2.
@@ -150,13 +195,13 @@ namespace BlueStore
         protected global::System.Web.UI.WebControls.Label lblPPrecio2;
 
         /// <summary>
-        /// Control Button5.
+        /// Control BtnPantalon2.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button5;
+        protected global::System.Web.UI.WebControls.Button BtnPantalon2;
 
         /// <summary>
         /// Control lblPantalon3.
@@ -177,13 +222,13 @@ namespace BlueStore
         protected global::System.Web.UI.WebControls.Label lblPPrecio3;
 
         /// <summary>
-        /// Control Button6.
+        /// Control BtnPantalon3.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button6;
+        protected global::System.Web.UI.WebControls.Button BtnPantalon3;
 
         /// <summary>
         /// Control lblChaqueta1.
@@ -204,13 +249,13 @@ namespace BlueStore
         protected global::System.Web.UI.WebControls.Label lblChPrecio1;
 
         /// <summary>
-        /// Control Button7.
+        /// Control BtnChaqueta1.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button7;
+        protected global::System.Web.UI.WebControls.Button BtnChaqueta1;
 
         /// <summary>
         /// Control lblChaqueta2.
@@ -231,13 +276,13 @@ namespace BlueStore
         protected global::System.Web.UI.WebControls.Label lblChPrecio2;
 
         /// <summary>
-        /// Control Button8.
+        /// Control BtnChaqueta2.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button8;
+        protected global::System.Web.UI.WebControls.Button BtnChaqueta2;
 
         /// <summary>
         /// Control lblChaqueta3.
@@ -258,13 +303,13 @@ namespace BlueStore
         protected global::System.Web.UI.WebControls.Label lblChPrecio3;
 
         /// <summary>
-        /// Control Button9.
+        /// Control BtnChaqueta3.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button9;
+        protected global::System.Web.UI.WebControls.Button BtnChaqueta3;
 
         /// <summary>
         /// Control lblZapato1.
@@ -285,13 +330,13 @@ namespace BlueStore
         protected global::System.Web.UI.WebControls.Label lblZPrecio1;
 
         /// <summary>
-        /// Control Button10.
+        /// Control BtnZapato1.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button10;
+        protected global::System.Web.UI.WebControls.Button BtnZapato1;
 
         /// <summary>
         /// Control lblZapato2.
@@ -312,13 +357,13 @@ namespace BlueStore
         protected global::System.Web.UI.WebControls.Label lblZPrecio2;
 
         /// <summary>
-        /// Control Button11.
+        /// Control BtnZapato2.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button11;
+        protected global::System.Web.UI.WebControls.Button BtnZapato2;
 
         /// <summary>
         /// Control lblZapato3.
@@ -339,13 +384,13 @@ namespace BlueStore
         protected global::System.Web.UI.WebControls.Label lblZPrecio3;
 
         /// <summary>
-        /// Control Button12.
+        /// Control BtnZapato3.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button12;
+        protected global::System.Web.UI.WebControls.Button BtnZapato3;
 
         /// <summary>
         /// Control lblBlusa1.
@@ -366,13 +411,13 @@ namespace BlueStore
         protected global::System.Web.UI.WebControls.Label lblBPrecio1;
 
         /// <summary>
-        /// Control Button13.
+        /// Control BtnBlusa1.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button13;
+        protected global::System.Web.UI.WebControls.Button BtnBlusa1;
 
         /// <summary>
         /// Control lblBlusa2.
@@ -393,13 +438,13 @@ namespace BlueStore
         protected global::System.Web.UI.WebControls.Label lblBPrecio2;
 
         /// <summary>
-        /// Control Button14.
+        /// Control BtnBlusa2.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button14;
+        protected global::System.Web.UI.WebControls.Button BtnBlusa2;
 
         /// <summary>
         /// Control lblBlusa3.
@@ -420,13 +465,13 @@ namespace BlueStore
         protected global::System.Web.UI.WebControls.Label lblBPrecio3;
 
         /// <summary>
-        /// Control Button15.
+        /// Control BtnBlusa3.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button15;
+        protected global::System.Web.UI.WebControls.Button BtnBlusa3;
 
         /// <summary>
         /// Control lblVestido1.
@@ -447,13 +492,13 @@ namespace BlueStore
         protected global::System.Web.UI.WebControls.Label lblVPrecio1;
 
         /// <summary>
-        /// Control Button16.
+        /// Control BtnVestido1.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button16;
+        protected global::System.Web.UI.WebControls.Button BtnVestido1;
 
         /// <summary>
         /// Control lblVestido2.
@@ -474,13 +519,13 @@ namespace BlueStore
         protected global::System.Web.UI.WebControls.Label lblVPrecio2;
 
         /// <summary>
-        /// Control Button17.
+        /// Control BtnVestido2.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button17;
+        protected global::System.Web.UI.WebControls.Button BtnVestido2;
 
         /// <summary>
         /// Control lblVestido3.
@@ -501,13 +546,13 @@ namespace BlueStore
         protected global::System.Web.UI.WebControls.Label lblVPrecio3;
 
         /// <summary>
-        /// Control Button18.
+        /// Control BtnVestido3.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button18;
+        protected global::System.Web.UI.WebControls.Button BtnVestido3;
 
         /// <summary>
         /// Control lblAcce1.
@@ -528,13 +573,13 @@ namespace BlueStore
         protected global::System.Web.UI.WebControls.Label lblAccPrecio1;
 
         /// <summary>
-        /// Control Button19.
+        /// Control BtnAccesorio1.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button19;
+        protected global::System.Web.UI.WebControls.Button BtnAccesorio1;
 
         /// <summary>
         /// Control lblAcce2.
@@ -555,13 +600,13 @@ namespace BlueStore
         protected global::System.Web.UI.WebControls.Label lblAccPrecio2;
 
         /// <summary>
-        /// Control Button20.
+        /// Control BtnAccesorio2.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button20;
+        protected global::System.Web.UI.WebControls.Button BtnAccesorio2;
 
         /// <summary>
         /// Control lblAcce3.
@@ -582,12 +627,12 @@ namespace BlueStore
         protected global::System.Web.UI.WebControls.Label lblAccPrecio3;
 
         /// <summary>
-        /// Control Button21.
+        /// Control BtnAccesorio3.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button21;
+        protected global::System.Web.UI.WebControls.Button BtnAccesorio3;
     }
 }

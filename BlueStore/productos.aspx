@@ -34,6 +34,26 @@
                     </ul>
                 </nav>
             </header>
+
+            <!-- seccion pago -->
+            <h4>Ingrese sus datos para confirmar el pago</h4>
+            <section class="form-pago">
+                <div class="item">
+                    <asp:TextBox class="input-data"  placeholder="usuario" ID="txtUserPago" runat="server"></asp:TextBox>
+                </div>
+                <div class="item">
+                     <asp:TextBox class="input-data" placeholder="contraseña" type="password" ID="txtPasswordPago" runat="server"></asp:TextBox>
+                </div>
+                <div class="item">
+                    $
+                    <asp:Label ID="lblTotalPago" runat="server" Text="0"></asp:Label>
+                </div>
+                <div class="item">
+                    <asp:Button ID="BtnPagarTotal"  class="btn-pagar" runat="server" Text="Pagar" OnClick="BtnPagarTotal_Click" />
+                </div>
+                <asp:Label ID="lblConfirmacion" runat="server" Text=""></asp:Label>
+            </section>
+
             <!-- Contendor principal -->
 
             <main class="container">
@@ -50,15 +70,16 @@
                             <h4>
                                 <asp:Label ID="lblCamisa1" runat="server" Text="Label"></asp:Label>
                             </h4>
-                            <p><strong>Precio:</strong> $
+                            <p>
+                                <strong>Precio:</strong> $
                                 <asp:Label ID="lblCPrecio1" runat="server" Text="Label"></asp:Label>
                             </p>
                         </div>
 
-                             <asp:Button class="btn-comprar" ID="Button1" runat="server" Text="Comprar ahora" />
+                        <asp:Button class="btn-comprar" ID="BtnCamisa1" runat="server" Text="Comprar ahora" OnClick="BtnCamisa1_Click" />
                     </article>
                     <!-- fin tarjeta -->
-                     <!-- Inicio tarjeta -->
+                    <!-- Inicio tarjeta -->
                     <article class="card">
                         <img src="img/productos/Camisas/camisa verde.jpg"
                             alt="camisa" />
@@ -67,15 +88,16 @@
                             <h4>
                                 <asp:Label ID="lblCamisa2" runat="server" Text="Label"></asp:Label>
                             </h4>
-                            <p><strong>Precio:</strong> $
+                            <p>
+                                <strong>Precio:</strong> $
                                 <asp:Label ID="lblCPrecio2" runat="server" Text="Label"></asp:Label>
                             </p>
                         </div>
 
-                        <asp:Button class="btn-comprar" ID="Button2" runat="server" Text="Comprar ahora" />
+                        <asp:Button class="btn-comprar" ID="BtnCamisa2" runat="server" Text="Comprar ahora" OnClick="BtnCamisa2_Click" />
                     </article>
                     <!-- fin tarjeta -->
-                      <!-- Inicio tarjeta -->
+                    <!-- Inicio tarjeta -->
                     <article class="card">
                         <img src="img/productos/Camisas/camisa roja v2.jpg"
                             alt="camisa" />
@@ -84,15 +106,15 @@
                             <h4>
                                 <asp:Label ID="lblCamisa3" runat="server" Text="Label"></asp:Label>
                             </h4>
-                            <p><strong>Precio:</strong> $
+                            <p>
+                                <strong>Precio:</strong> $
                                 <asp:Label ID="lblCPrecio3" runat="server" Text="Label"></asp:Label>
                             </p>
                         </div>
 
-                        <asp:Button class="btn-comprar" ID="Button3" runat="server" Text="Comprar ahora" />
+                        <asp:Button class="btn-comprar" ID="BtnCamisa3" runat="server" Text="Comprar ahora" OnClick="BtnCamisa3_Click" />
                     </article>
                     <!-- fin tarjeta -->
-
                 </section>
                 <!-- Seccion para pantalones -->
                 <h2 id="seccion2">Pantalones</h2>
@@ -106,15 +128,16 @@
                             <h4>
                                 <asp:Label ID="lblPantalon1" runat="server" Text="Label"></asp:Label>
                             </h4>
-                            <p><strong>Precio:</strong> $
+                            <p>
+                                <strong>Precio:</strong> $
                                 <asp:Label ID="lblPPrecio1" runat="server" Text="Label"></asp:Label>
                             </p>
                         </div>
 
-                             <asp:Button class="btn-comprar" ID="Button4" runat="server" Text="Comprar ahora" />
+                        <asp:Button class="btn-comprar" ID="BtnPantalon1" runat="server" Text="Comprar ahora" OnClick="BtnPantalon1_Click" />
                     </article>
                     <!-- fin tarjeta -->
-                     <!-- Inicio tarjeta -->
+                    <!-- Inicio tarjeta -->
                     <article class="card">
                         <img src="img/productos/Pantalones/Pantalon vaquero de hombre.jpg"
                             alt="camisa" />
@@ -123,12 +146,13 @@
                             <h4>
                                 <asp:Label ID="lblPantalon2" runat="server" Text="Label"></asp:Label>
                             </h4>
-                            <p><strong>Precio:</strong> $
+                            <p>
+                                <strong>Precio:</strong> $
                                 <asp:Label ID="lblPPrecio2" runat="server" Text="Label"></asp:Label>
                             </p>
                         </div>
 
-                             <asp:Button class="btn-comprar" ID="Button5" runat="server" Text="Comprar ahora" />
+                        <asp:Button class="btn-comprar" ID="BtnPantalon2" runat="server" Text="Comprar ahora" OnClick="BtnPantalon2_Click" />
                     </article>
                     <!-- fin tarjeta -->
                     <!-- Inicio tarjeta -->
@@ -140,12 +164,13 @@
                             <h4>
                                 <asp:Label ID="lblPantalon3" runat="server" Text="Label"></asp:Label>
                             </h4>
-                            <p><strong>Precio:</strong> $
+                            <p>
+                                <strong>Precio:</strong> $
                                 <asp:Label ID="lblPPrecio3" runat="server" Text="Label"></asp:Label>
                             </p>
                         </div>
 
-                             <asp:Button class="btn-comprar" ID="Button6" runat="server" Text="Comprar ahora" />
+                        <asp:Button class="btn-comprar" ID="BtnPantalon3" runat="server" Text="Comprar ahora" OnClick="BtnPantalon3_Click" />
                     </article>
                     <!-- fin tarjeta -->
                 </section>
@@ -161,15 +186,16 @@
                             <h4>
                                 <asp:Label ID="lblChaqueta1" runat="server" Text="Label"></asp:Label>
                             </h4>
-                            <p><strong>Precio:</strong> $
+                            <p>
+                                <strong>Precio:</strong> $
                                 <asp:Label ID="lblChPrecio1" runat="server" Text="Label"></asp:Label>
                             </p>
                         </div>
 
-                             <asp:Button class="btn-comprar" ID="Button7" runat="server" Text="Comprar ahora" />
+                        <asp:Button class="btn-comprar" ID="BtnChaqueta1" runat="server" Text="Comprar ahora" OnClick="BtnChaqueta1_Click" />
                     </article>
                     <!-- fin tarjeta -->
-                     <!-- Inicio tarjeta -->
+                    <!-- Inicio tarjeta -->
                     <article class="card">
                         <img src="img/productos/Chaquetas/Chaqueta de mujer.jpg"
                             alt="camisa" />
@@ -178,15 +204,16 @@
                             <h4>
                                 <asp:Label ID="lblChaqueta2" runat="server" Text="Label"></asp:Label>
                             </h4>
-                            <p><strong>Precio:</strong> $
+                            <p>
+                                <strong>Precio:</strong> $
                                 <asp:Label ID="lblChPrecio2" runat="server" Text="Label"></asp:Label>
                             </p>
                         </div>
 
-                             <asp:Button class="btn-comprar" ID="Button8" runat="server" Text="Comprar ahora" />
+                        <asp:Button class="btn-comprar" ID="BtnChaqueta2" runat="server" Text="Comprar ahora" OnClick="BtnChaqueta2_Click" />
                     </article>
                     <!-- fin tarjeta -->
-                     <!-- Inicio tarjeta -->
+                    <!-- Inicio tarjeta -->
                     <article class="card">
                         <img src="img/productos/Chaquetas/Chaqueta deportiva de mujer.jpg"
                             alt="camisa" />
@@ -195,12 +222,13 @@
                             <h4>
                                 <asp:Label ID="lblChaqueta3" runat="server" Text="Label"></asp:Label>
                             </h4>
-                            <p><strong>Precio:</strong> $
+                            <p>
+                                <strong>Precio:</strong> $
                                 <asp:Label ID="lblChPrecio3" runat="server" Text="Label"></asp:Label>
                             </p>
                         </div>
 
-                             <asp:Button class="btn-comprar" ID="Button9" runat="server" Text="Comprar ahora" />
+                        <asp:Button class="btn-comprar" ID="BtnChaqueta3" runat="server" Text="Comprar ahora" OnClick="BtnChaqueta3_Click" />
                     </article>
                     <!-- fin tarjeta -->
                 </section>
@@ -216,12 +244,13 @@
                             <h4>
                                 <asp:Label ID="lblZapato1" runat="server" Text="Label"></asp:Label>
                             </h4>
-                            <p><strong>Precio:</strong> $
+                            <p>
+                                <strong>Precio:</strong> $
                                 <asp:Label ID="lblZPrecio1" runat="server" Text="Label"></asp:Label>
                             </p>
                         </div>
 
-                             <asp:Button class="btn-comprar" ID="Button10" runat="server" Text="Comprar ahora" />
+                        <asp:Button class="btn-comprar" ID="BtnZapato1" runat="server" Text="Comprar ahora" OnClick="BtnZapato1_Click" />
                     </article>
                     <!-- fin tarjeta -->
                     <!-- Inicio tarjeta -->
@@ -233,12 +262,13 @@
                             <h4>
                                 <asp:Label ID="lblZapato2" runat="server" Text="Label"></asp:Label>
                             </h4>
-                            <p><strong>Precio:</strong> $
+                            <p>
+                                <strong>Precio:</strong> $
                                 <asp:Label ID="lblZPrecio2" runat="server" Text="Label"></asp:Label>
                             </p>
                         </div>
 
-                             <asp:Button class="btn-comprar" ID="Button11" runat="server" Text="Comprar ahora" />
+                        <asp:Button class="btn-comprar" ID="BtnZapato2" runat="server" Text="Comprar ahora" OnClick="BtnZapato2_Click" />
                     </article>
                     <!-- fin tarjeta -->
                     <!-- Inicio tarjeta -->
@@ -250,19 +280,20 @@
                             <h4>
                                 <asp:Label ID="lblZapato3" runat="server" Text="Label"></asp:Label>
                             </h4>
-                            <p><strong>Precio:</strong> $
+                            <p>
+                                <strong>Precio:</strong> $
                                 <asp:Label ID="lblZPrecio3" runat="server" Text="Label"></asp:Label>
                             </p>
                         </div>
 
-                             <asp:Button class="btn-comprar" ID="Button12" runat="server" Text="Comprar ahora" />
+                        <asp:Button class="btn-comprar" ID="BtnZapato3" runat="server" Text="Comprar ahora" OnClick="BtnZapato3_Click" />
                     </article>
                     <!-- fin tarjeta -->
                 </section>
                 <!-- seccion blusas -->
                 <h2 id="seccion5">Blusas</h2>
                 <section class="section">
-                     <!-- Inicio tarjeta -->
+                    <!-- Inicio tarjeta -->
                     <article class="card">
                         <img src="img/productos/Blusas/Blusa roja.jpg"
                             alt="camisa" />
@@ -271,12 +302,13 @@
                             <h4>
                                 <asp:Label ID="lblBlusa1" runat="server" Text="Label"></asp:Label>
                             </h4>
-                            <p><strong>Precio:</strong> $
+                            <p>
+                                <strong>Precio:</strong> $
                                 <asp:Label ID="lblBPrecio1" runat="server" Text="Label"></asp:Label>
                             </p>
                         </div>
 
-                             <asp:Button class="btn-comprar" ID="Button13" runat="server" Text="Comprar ahora" />
+                        <asp:Button class="btn-comprar" ID="BtnBlusa1" runat="server" Text="Comprar ahora" OnClick="BtnBlusa1_Click" />
                     </article>
                     <!-- fin tarjeta -->
                     <!-- Inicio tarjeta -->
@@ -288,15 +320,16 @@
                             <h4>
                                 <asp:Label ID="lblBlusa2" runat="server" Text="Label"></asp:Label>
                             </h4>
-                            <p><strong>Precio:</strong> $
+                            <p>
+                                <strong>Precio:</strong> $
                                 <asp:Label ID="lblBPrecio2" runat="server" Text="Label"></asp:Label>
                             </p>
                         </div>
 
-                             <asp:Button class="btn-comprar" ID="Button14" runat="server" Text="Comprar ahora" />
+                        <asp:Button class="btn-comprar" ID="BtnBlusa2" runat="server" Text="Comprar ahora" OnClick="BtnBlusa2_Click" />
                     </article>
                     <!-- fin tarjeta -->
-                     <!-- Inicio tarjeta -->
+                    <!-- Inicio tarjeta -->
                     <article class="card">
                         <img src="img/productos/Blusas/Bluza azul.jpg"
                             alt="camisa" />
@@ -305,12 +338,13 @@
                             <h4>
                                 <asp:Label ID="lblBlusa3" runat="server" Text="Label"></asp:Label>
                             </h4>
-                            <p><strong>Precio:</strong> $
+                            <p>
+                                <strong>Precio:</strong> $
                                 <asp:Label ID="lblBPrecio3" runat="server" Text="Label"></asp:Label>
                             </p>
                         </div>
 
-                             <asp:Button class="btn-comprar" ID="Button15" runat="server" Text="Comprar ahora" />
+                        <asp:Button class="btn-comprar" ID="BtnBlusa3" runat="server" Text="Comprar ahora" OnClick="BtnBlusa3_Click" />
                     </article>
                     <!-- fin tarjeta -->
                 </section>
@@ -326,12 +360,13 @@
                             <h4>
                                 <asp:Label ID="lblVestido1" runat="server" Text="Label"></asp:Label>
                             </h4>
-                            <p><strong>Precio:</strong> $
+                            <p>
+                                <strong>Precio:</strong> $
                                 <asp:Label ID="lblVPrecio1" runat="server" Text="Label"></asp:Label>
                             </p>
                         </div>
 
-                             <asp:Button class="btn-comprar" ID="Button16" runat="server" Text="Comprar ahora" />
+                        <asp:Button class="btn-comprar" ID="BtnVestido1" runat="server" Text="Comprar ahora" OnClick="BtnVestido1_Click" />
                     </article>
                     <!-- fin tarjeta -->
                     <!-- Inicio tarjeta -->
@@ -343,12 +378,13 @@
                             <h4>
                                 <asp:Label ID="lblVestido2" runat="server" Text="Label"></asp:Label>
                             </h4>
-                            <p><strong>Precio:</strong> $
+                            <p>
+                                <strong>Precio:</strong> $
                                 <asp:Label ID="lblVPrecio2" runat="server" Text="Label"></asp:Label>
                             </p>
                         </div>
 
-                             <asp:Button class="btn-comprar" ID="Button17" runat="server" Text="Comprar ahora" />
+                        <asp:Button class="btn-comprar" ID="BtnVestido2" runat="server" Text="Comprar ahora" OnClick="BtnVestido2_Click" />
                     </article>
                     <!-- fin tarjeta -->
                     <!-- Inicio tarjeta -->
@@ -360,19 +396,20 @@
                             <h4>
                                 <asp:Label ID="lblVestido3" runat="server" Text="Label"></asp:Label>
                             </h4>
-                            <p><strong>Precio:</strong> $
+                            <p>
+                                <strong>Precio:</strong> $
                                 <asp:Label ID="lblVPrecio3" runat="server" Text="Label"></asp:Label>
                             </p>
                         </div>
 
-                             <asp:Button class="btn-comprar" ID="Button18" runat="server" Text="Comprar ahora" />
+                        <asp:Button class="btn-comprar" ID="BtnVestido3" runat="server" Text="Comprar ahora" OnClick="BtnVestido3_Click" />
                     </article>
                     <!-- fin tarjeta -->
                 </section>
                 <!-- seccion accesorios -->
                 <h2 id="seccion7">Accesorios</h2>
                 <section class="section">
-                     <!-- Inicio tarjeta -->
+                    <!-- Inicio tarjeta -->
                     <article class="card">
                         <img src="img/productos/Accesorios/cincho para hombre.jpg"
                             alt="camisa" />
@@ -381,12 +418,13 @@
                             <h4>
                                 <asp:Label ID="lblAcce1" runat="server" Text="Label"></asp:Label>
                             </h4>
-                            <p><strong>Precio:</strong> $
+                            <p>
+                                <strong>Precio:</strong> $
                                 <asp:Label ID="lblAccPrecio1" runat="server" Text="Label"></asp:Label>
                             </p>
                         </div>
 
-                             <asp:Button class="btn-comprar" ID="Button19" runat="server" Text="Comprar ahora" />
+                        <asp:Button class="btn-comprar" ID="BtnAccesorio1" runat="server" Text="Comprar ahora" OnClick="BtnAccesorio1_Click" />
                     </article>
                     <!-- fin tarjeta -->
                     <!-- Inicio tarjeta -->
@@ -398,12 +436,13 @@
                             <h4>
                                 <asp:Label ID="lblAcce2" runat="server" Text="Label"></asp:Label>
                             </h4>
-                            <p><strong>Precio:</strong> $
+                            <p>
+                                <strong>Precio:</strong> $
                                 <asp:Label ID="lblAccPrecio2" runat="server" Text="Label"></asp:Label>
                             </p>
                         </div>
 
-                             <asp:Button class="btn-comprar" ID="Button20" runat="server" Text="Comprar ahora" />
+                        <asp:Button class="btn-comprar" ID="BtnAccesorio2" runat="server" Text="Comprar ahora" OnClick="BtnAccesorio2_Click" />
                     </article>
                     <!-- fin tarjeta -->
                     <!-- Inicio tarjeta -->
@@ -415,16 +454,16 @@
                             <h4>
                                 <asp:Label ID="lblAcce3" runat="server" Text="Label"></asp:Label>
                             </h4>
-                            <p><strong>Precio:</strong> $
+                            <p>
+                                <strong>Precio:</strong> $
                                 <asp:Label ID="lblAccPrecio3" runat="server" Text="Label"></asp:Label>
                             </p>
                         </div>
 
-                             <asp:Button class="btn-comprar" ID="Button21" runat="server" Text="Comprar ahora" />
+                        <asp:Button class="btn-comprar" ID="BtnAccesorio3" runat="server" Text="Comprar ahora" OnClick="BtnAccesorio3_Click" />
                     </article>
                     <!-- fin tarjeta -->
                 </section>
-
             </main>
 
             <!-- Al pulsar ctrl+u se muestra el boton -->
