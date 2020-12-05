@@ -214,10 +214,10 @@
 
                         <div class="product-info">
                             <h4>
-                                <asp:Label ID="Label19" runat="server" Text="Label"></asp:Label>
+                                <asp:Label ID="lblZapato1" runat="server" Text="Label"></asp:Label>
                             </h4>
                             <p><strong>Precio:</strong> $
-                                <asp:Label ID="Label20" runat="server" Text="Label"></asp:Label>
+                                <asp:Label ID="lblZPrecio1" runat="server" Text="Label"></asp:Label>
                             </p>
                         </div>
 
@@ -231,10 +231,10 @@
 
                         <div class="product-info">
                             <h4>
-                                <asp:Label ID="Label21" runat="server" Text="Label"></asp:Label>
+                                <asp:Label ID="lblZapato2" runat="server" Text="Label"></asp:Label>
                             </h4>
                             <p><strong>Precio:</strong> $
-                                <asp:Label ID="Label22" runat="server" Text="Label"></asp:Label>
+                                <asp:Label ID="lblZPrecio2" runat="server" Text="Label"></asp:Label>
                             </p>
                         </div>
 
@@ -248,10 +248,10 @@
 
                         <div class="product-info">
                             <h4>
-                                <asp:Label ID="Label23" runat="server" Text="Label"></asp:Label>
+                                <asp:Label ID="lblZapato3" runat="server" Text="Label"></asp:Label>
                             </h4>
                             <p><strong>Precio:</strong> $
-                                <asp:Label ID="Label24" runat="server" Text="Label"></asp:Label>
+                                <asp:Label ID="lblZPrecio3" runat="server" Text="Label"></asp:Label>
                             </p>
                         </div>
 
@@ -269,10 +269,10 @@
 
                         <div class="product-info">
                             <h4>
-                                <asp:Label ID="Label25" runat="server" Text="Label"></asp:Label>
+                                <asp:Label ID="lblBlusa1" runat="server" Text="Label"></asp:Label>
                             </h4>
                             <p><strong>Precio:</strong> $
-                                <asp:Label ID="Label26" runat="server" Text="Label"></asp:Label>
+                                <asp:Label ID="lblBPrecio1" runat="server" Text="Label"></asp:Label>
                             </p>
                         </div>
 
@@ -286,10 +286,10 @@
 
                         <div class="product-info">
                             <h4>
-                                <asp:Label ID="Label27" runat="server" Text="Label"></asp:Label>
+                                <asp:Label ID="lblBlusa2" runat="server" Text="Label"></asp:Label>
                             </h4>
                             <p><strong>Precio:</strong> $
-                                <asp:Label ID="Label28" runat="server" Text="Label"></asp:Label>
+                                <asp:Label ID="lblBPrecio2" runat="server" Text="Label"></asp:Label>
                             </p>
                         </div>
 
@@ -303,10 +303,10 @@
 
                         <div class="product-info">
                             <h4>
-                                <asp:Label ID="Label29" runat="server" Text="Label"></asp:Label>
+                                <asp:Label ID="lblBlusa3" runat="server" Text="Label"></asp:Label>
                             </h4>
                             <p><strong>Precio:</strong> $
-                                <asp:Label ID="Label30" runat="server" Text="Label"></asp:Label>
+                                <asp:Label ID="lblBPrecio3" runat="server" Text="Label"></asp:Label>
                             </p>
                         </div>
 
@@ -324,10 +324,10 @@
 
                         <div class="product-info">
                             <h4>
-                                <asp:Label ID="Label31" runat="server" Text="Label"></asp:Label>
+                                <asp:Label ID="lblVestido1" runat="server" Text="Label"></asp:Label>
                             </h4>
                             <p><strong>Precio:</strong> $
-                                <asp:Label ID="Label32" runat="server" Text="Label"></asp:Label>
+                                <asp:Label ID="lblVPrecio1" runat="server" Text="Label"></asp:Label>
                             </p>
                         </div>
 
@@ -341,10 +341,10 @@
 
                         <div class="product-info">
                             <h4>
-                                <asp:Label ID="Label33" runat="server" Text="Label"></asp:Label>
+                                <asp:Label ID="lblVestido2" runat="server" Text="Label"></asp:Label>
                             </h4>
                             <p><strong>Precio:</strong> $
-                                <asp:Label ID="Label34" runat="server" Text="Label"></asp:Label>
+                                <asp:Label ID="lblVPrecio2" runat="server" Text="Label"></asp:Label>
                             </p>
                         </div>
 
@@ -358,10 +358,10 @@
 
                         <div class="product-info">
                             <h4>
-                                <asp:Label ID="Label35" runat="server" Text="Label"></asp:Label>
+                                <asp:Label ID="lblVestido3" runat="server" Text="Label"></asp:Label>
                             </h4>
                             <p><strong>Precio:</strong> $
-                                <asp:Label ID="Label36" runat="server" Text="Label"></asp:Label>
+                                <asp:Label ID="lblVPrecio3" runat="server" Text="Label"></asp:Label>
                             </p>
                         </div>
 
@@ -379,10 +379,10 @@
 
                         <div class="product-info">
                             <h4>
-                                <asp:Label ID="Label37" runat="server" Text="Label"></asp:Label>
+                                <asp:Label ID="lblAcce1" runat="server" Text="Label"></asp:Label>
                             </h4>
                             <p><strong>Precio:</strong> $
-                                <asp:Label ID="Label38" runat="server" Text="Label"></asp:Label>
+                                <asp:Label ID="lblAccPrecio1" runat="server" Text="Label"></asp:Label>
                             </p>
                         </div>
 
@@ -396,10 +396,10 @@
 
                         <div class="product-info">
                             <h4>
-                                <asp:Label ID="Label39" runat="server" Text="Label"></asp:Label>
+                                <asp:Label ID="lblAcce2" runat="server" Text="Label"></asp:Label>
                             </h4>
                             <p><strong>Precio:</strong> $
-                                <asp:Label ID="Label40" runat="server" Text="Label"></asp:Label>
+                                <asp:Label ID="lblAccPrecio2" runat="server" Text="Label"></asp:Label>
                             </p>
                         </div>
 
@@ -413,10 +413,10 @@
 
                         <div class="product-info">
                             <h4>
-                                <asp:Label ID="Label41" runat="server" Text="Label"></asp:Label>
+                                <asp:Label ID="lblAcce3" runat="server" Text="Label"></asp:Label>
                             </h4>
                             <p><strong>Precio:</strong> $
-                                <asp:Label ID="Label42" runat="server" Text="Label"></asp:Label>
+                                <asp:Label ID="lblAccPrecio3" runat="server" Text="Label"></asp:Label>
                             </p>
                         </div>
 

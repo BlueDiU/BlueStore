@@ -32,6 +32,22 @@ namespace BlueStore
                 RenderProd(lblChaqueta1, lblCPrecio1, 7);
                 RenderProd(lblChaqueta2, lblCPrecio2, 8);
                 RenderProd(lblChaqueta3, lblCPrecio3, 9);
+                // Render Zapatos
+                RenderProd(lblZapato1, lblZPrecio1, 10);
+                RenderProd(lblZapato2, lblZPrecio2, 11);
+                RenderProd(lblZapato3, lblZPrecio3, 12);
+                // Render Blusas
+                RenderProd(lblBlusa1, lblBPrecio1, 13);
+                RenderProd(lblBlusa2, lblBPrecio2, 14);
+                RenderProd(lblBlusa3, lblBPrecio3, 15);
+                // Render vestidos
+                RenderProd(lblVestido1, lblVPrecio1, 16);
+                RenderProd(lblVestido2, lblVPrecio2, 17);
+                RenderProd(lblVestido3, lblVPrecio3, 18);
+                // Render Accesorios
+                RenderProd(lblAcce1, lblAccPrecio1, 19);
+                RenderProd(lblAcce2, lblAccPrecio2, 20);
+                RenderProd(lblAcce3, lblAccPrecio3, 21);
             }
         }
 

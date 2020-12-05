@@ -183,7 +183,11 @@ a:hover {
 .product-info {
     padding: -1rem;
     font-size: 1rem;
+  
 }
+    .product-info h4 {
+        text-transform: capitalize;
+    }
 
 /* Estilos pie de página */
 
