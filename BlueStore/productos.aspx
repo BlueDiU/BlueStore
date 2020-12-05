@@ -36,60 +36,396 @@
             </header>
             <!-- Contendor principal -->
 
-            <div class="container">
+            <main class="container">
 
                 <!-- Seccion para camisas -->
                 <h2 id="seccion1">Camisas</h2>
-                <div class="section">
-                    <div class="card">
-                        <img src="https://ae01.alicdn.com/kf/H55a330a1ef76441192aef1eb1aea559eK/Camisa-de-mezclilla-para-hombre-2020-primavera-oto-o-camisa-delgada-para-hombre-camisa-de-manga.jpg_q50.jpg"
+                <section class="section">
+                    <!-- Inicio tarjeta -->
+                    <article class="card">
+                        <img src="img/productos/Camisas/camisa azul.jpg"
                             alt="camisa" />
 
                         <div class="product-info">
-                            <h4>Camisas Azul</h4>
-                            <p><strong>Precio:</strong> $20</p>
+                            <h4>
+                                <asp:Label ID="lblCamisa1" runat="server" Text="Label"></asp:Label>
+                            </h4>
+                            <p><strong>Precio:</strong> $
+                                <asp:Label ID="lblCPrecio1" runat="server" Text="Label"></asp:Label>
+                            </p>
                         </div>
 
-                        <button class="btn-comprar">Comprar ahora</button>
-                    </div>
-
-                    <div class="card">
-                        <img src="" />
-                            alt="camisa">
+                             <asp:Button class="btn-comprar" ID="Button1" runat="server" Text="Comprar ahora" />
+                    </article>
+                    <!-- fin tarjeta -->
+                     <!-- Inicio tarjeta -->
+                    <article class="card">
+                        <img src="img/productos/Camisas/camisa verde.jpg"
+                            alt="camisa" />
 
                         <div class="product-info">
-                            <h4>Camisas Azul</h4>
-                            <p><strong>Precio:</strong> $20</p>
+                            <h4>
+                                <asp:Label ID="lblCamisa2" runat="server" Text="Label"></asp:Label>
+                            </h4>
+                            <p><strong>Precio:</strong> $
+                                <asp:Label ID="lblCPrecio2" runat="server" Text="Label"></asp:Label>
+                            </p>
                         </div>
-                        <button class="btn-comprar">Comprar ahora</button>
-                    </div>
 
-                </div>
+                        <asp:Button class="btn-comprar" ID="Button2" runat="server" Text="Comprar ahora" />
+                    </article>
+                    <!-- fin tarjeta -->
+                      <!-- Inicio tarjeta -->
+                    <article class="card">
+                        <img src="img/productos/Camisas/camisa roja v2.jpg"
+                            alt="camisa" />
+
+                        <div class="product-info">
+                            <h4>
+                                <asp:Label ID="lblCamisa3" runat="server" Text="Label"></asp:Label>
+                            </h4>
+                            <p><strong>Precio:</strong> $
+                                <asp:Label ID="lblCPrecio3" runat="server" Text="Label"></asp:Label>
+                            </p>
+                        </div>
+
+                        <asp:Button class="btn-comprar" ID="Button3" runat="server" Text="Comprar ahora" />
+                    </article>
+                    <!-- fin tarjeta -->
+
+                </section>
                 <!-- Seccion para pantalones -->
                 <h2 id="seccion2">Pantalones</h2>
-                <div class="seccion">
-                </div>
+                <section class="section">
+                    <!-- Inicio tarjeta -->
+                    <article class="card">
+                        <img src="img/productos/Pantalones/Pantalon de vestir de hombre.jpg"
+                            alt="camisa" />
+
+                        <div class="product-info">
+                            <h4>
+                                <asp:Label ID="lblPantalon1" runat="server" Text="Label"></asp:Label>
+                            </h4>
+                            <p><strong>Precio:</strong> $
+                                <asp:Label ID="lblPPrecio1" runat="server" Text="Label"></asp:Label>
+                            </p>
+                        </div>
+
+                             <asp:Button class="btn-comprar" ID="Button4" runat="server" Text="Comprar ahora" />
+                    </article>
+                    <!-- fin tarjeta -->
+                     <!-- Inicio tarjeta -->
+                    <article class="card">
+                        <img src="img/productos/Pantalones/Pantalon vaquero de hombre.jpg"
+                            alt="camisa" />
+
+                        <div class="product-info">
+                            <h4>
+                                <asp:Label ID="lblPantalon2" runat="server" Text="Label"></asp:Label>
+                            </h4>
+                            <p><strong>Precio:</strong> $
+                                <asp:Label ID="lblPPrecio2" runat="server" Text="Label"></asp:Label>
+                            </p>
+                        </div>
+
+                             <asp:Button class="btn-comprar" ID="Button5" runat="server" Text="Comprar ahora" />
+                    </article>
+                    <!-- fin tarjeta -->
+                    <!-- Inicio tarjeta -->
+                    <article class="card">
+                        <img src="img/productos/Pantalones/Pantalon vaquero de mujer.jpg"
+                            alt="camisa" />
+
+                        <div class="product-info">
+                            <h4>
+                                <asp:Label ID="lblPantalon3" runat="server" Text="Label"></asp:Label>
+                            </h4>
+                            <p><strong>Precio:</strong> $
+                                <asp:Label ID="lblPPrecio3" runat="server" Text="Label"></asp:Label>
+                            </p>
+                        </div>
+
+                             <asp:Button class="btn-comprar" ID="Button6" runat="server" Text="Comprar ahora" />
+                    </article>
+                    <!-- fin tarjeta -->
+                </section>
                 <!-- seccion para chaquetas -->
                 <h2 id="seccion3">Chaquetas</h2>
-                <div class="seccion">
-                </div>
+                <section class="section">
+                    <!-- Inicio tarjeta -->
+                    <article class="card">
+                        <img src="img/productos/Chaquetas/Chaqueta de hombre.jpg"
+                            alt="camisa" />
+
+                        <div class="product-info">
+                            <h4>
+                                <asp:Label ID="lblChaqueta1" runat="server" Text="Label"></asp:Label>
+                            </h4>
+                            <p><strong>Precio:</strong> $
+                                <asp:Label ID="lblChPrecio1" runat="server" Text="Label"></asp:Label>
+                            </p>
+                        </div>
+
+                             <asp:Button class="btn-comprar" ID="Button7" runat="server" Text="Comprar ahora" />
+                    </article>
+                    <!-- fin tarjeta -->
+                     <!-- Inicio tarjeta -->
+                    <article class="card">
+                        <img src="img/productos/Chaquetas/Chaqueta de mujer.jpg"
+                            alt="camisa" />
+
+                        <div class="product-info">
+                            <h4>
+                                <asp:Label ID="lblChaqueta2" runat="server" Text="Label"></asp:Label>
+                            </h4>
+                            <p><strong>Precio:</strong> $
+                                <asp:Label ID="lblChPrecio2" runat="server" Text="Label"></asp:Label>
+                            </p>
+                        </div>
+
+                             <asp:Button class="btn-comprar" ID="Button8" runat="server" Text="Comprar ahora" />
+                    </article>
+                    <!-- fin tarjeta -->
+                     <!-- Inicio tarjeta -->
+                    <article class="card">
+                        <img src="img/productos/Chaquetas/Chaqueta deportiva de mujer.jpg"
+                            alt="camisa" />
+
+                        <div class="product-info">
+                            <h4>
+                                <asp:Label ID="lblChaqueta3" runat="server" Text="Label"></asp:Label>
+                            </h4>
+                            <p><strong>Precio:</strong> $
+                                <asp:Label ID="lblChPrecio3" runat="server" Text="Label"></asp:Label>
+                            </p>
+                        </div>
+
+                             <asp:Button class="btn-comprar" ID="Button9" runat="server" Text="Comprar ahora" />
+                    </article>
+                    <!-- fin tarjeta -->
+                </section>
                 <!-- seccion para zapatos -->
                 <h2 id="seccion4">Zapatos</h2>
-                <div class="seccion">
-                </div>
+                <section class="section">
+                    <!-- Inicio tarjeta -->
+                    <article class="card">
+                        <img src="img/productos/Zapatos/Zapatos de hombre.jpg"
+                            alt="camisa" />
+
+                        <div class="product-info">
+                            <h4>
+                                <asp:Label ID="Label19" runat="server" Text="Label"></asp:Label>
+                            </h4>
+                            <p><strong>Precio:</strong> $
+                                <asp:Label ID="Label20" runat="server" Text="Label"></asp:Label>
+                            </p>
+                        </div>
+
+                             <asp:Button class="btn-comprar" ID="Button10" runat="server" Text="Comprar ahora" />
+                    </article>
+                    <!-- fin tarjeta -->
+                    <!-- Inicio tarjeta -->
+                    <article class="card">
+                        <img src="img/productos/Zapatos/Zapatos de mujer.jpg"
+                            alt="camisa" />
+
+                        <div class="product-info">
+                            <h4>
+                                <asp:Label ID="Label21" runat="server" Text="Label"></asp:Label>
+                            </h4>
+                            <p><strong>Precio:</strong> $
+                                <asp:Label ID="Label22" runat="server" Text="Label"></asp:Label>
+                            </p>
+                        </div>
+
+                             <asp:Button class="btn-comprar" ID="Button11" runat="server" Text="Comprar ahora" />
+                    </article>
+                    <!-- fin tarjeta -->
+                    <!-- Inicio tarjeta -->
+                    <article class="card">
+                        <img src="img/productos/Zapatos/Zapatos deportivos para hombre.jpg"
+                            alt="camisa" />
+
+                        <div class="product-info">
+                            <h4>
+                                <asp:Label ID="Label23" runat="server" Text="Label"></asp:Label>
+                            </h4>
+                            <p><strong>Precio:</strong> $
+                                <asp:Label ID="Label24" runat="server" Text="Label"></asp:Label>
+                            </p>
+                        </div>
+
+                             <asp:Button class="btn-comprar" ID="Button12" runat="server" Text="Comprar ahora" />
+                    </article>
+                    <!-- fin tarjeta -->
+                </section>
                 <!-- seccion blusas -->
                 <h2 id="seccion5">Blusas</h2>
-                <div class="seccion">
-                </div>
+                <section class="section">
+                     <!-- Inicio tarjeta -->
+                    <article class="card">
+                        <img src="img/productos/Blusas/Blusa roja.jpg"
+                            alt="camisa" />
+
+                        <div class="product-info">
+                            <h4>
+                                <asp:Label ID="Label25" runat="server" Text="Label"></asp:Label>
+                            </h4>
+                            <p><strong>Precio:</strong> $
+                                <asp:Label ID="Label26" runat="server" Text="Label"></asp:Label>
+                            </p>
+                        </div>
+
+                             <asp:Button class="btn-comprar" ID="Button13" runat="server" Text="Comprar ahora" />
+                    </article>
+                    <!-- fin tarjeta -->
+                    <!-- Inicio tarjeta -->
+                    <article class="card">
+                        <img src="img/productos/Blusas/Blusa verde.jpg"
+                            alt="camisa" />
+
+                        <div class="product-info">
+                            <h4>
+                                <asp:Label ID="Label27" runat="server" Text="Label"></asp:Label>
+                            </h4>
+                            <p><strong>Precio:</strong> $
+                                <asp:Label ID="Label28" runat="server" Text="Label"></asp:Label>
+                            </p>
+                        </div>
+
+                             <asp:Button class="btn-comprar" ID="Button14" runat="server" Text="Comprar ahora" />
+                    </article>
+                    <!-- fin tarjeta -->
+                     <!-- Inicio tarjeta -->
+                    <article class="card">
+                        <img src="img/productos/Blusas/Bluza azul.jpg"
+                            alt="camisa" />
+
+                        <div class="product-info">
+                            <h4>
+                                <asp:Label ID="Label29" runat="server" Text="Label"></asp:Label>
+                            </h4>
+                            <p><strong>Precio:</strong> $
+                                <asp:Label ID="Label30" runat="server" Text="Label"></asp:Label>
+                            </p>
+                        </div>
+
+                             <asp:Button class="btn-comprar" ID="Button15" runat="server" Text="Comprar ahora" />
+                    </article>
+                    <!-- fin tarjeta -->
+                </section>
                 <!-- seccion vestidos -->
                 <h2 id="seccion6">Vestidos</h2>
-                <div class="seccion">
-                </div>
+                <section class="section">
+                    <!-- Inicio tarjeta -->
+                    <article class="card">
+                        <img src="img/productos/Vestidos/vestido amarillo.jpg"
+                            alt="camisa" />
+
+                        <div class="product-info">
+                            <h4>
+                                <asp:Label ID="Label31" runat="server" Text="Label"></asp:Label>
+                            </h4>
+                            <p><strong>Precio:</strong> $
+                                <asp:Label ID="Label32" runat="server" Text="Label"></asp:Label>
+                            </p>
+                        </div>
+
+                             <asp:Button class="btn-comprar" ID="Button16" runat="server" Text="Comprar ahora" />
+                    </article>
+                    <!-- fin tarjeta -->
+                    <!-- Inicio tarjeta -->
+                    <article class="card">
+                        <img src="img/productos/Vestidos/vestido negro.jpg"
+                            alt="camisa" />
+
+                        <div class="product-info">
+                            <h4>
+                                <asp:Label ID="Label33" runat="server" Text="Label"></asp:Label>
+                            </h4>
+                            <p><strong>Precio:</strong> $
+                                <asp:Label ID="Label34" runat="server" Text="Label"></asp:Label>
+                            </p>
+                        </div>
+
+                             <asp:Button class="btn-comprar" ID="Button17" runat="server" Text="Comprar ahora" />
+                    </article>
+                    <!-- fin tarjeta -->
+                    <!-- Inicio tarjeta -->
+                    <article class="card">
+                        <img src="img/productos/Vestidos/vestido salmon.jpg"
+                            alt="camisa" />
+
+                        <div class="product-info">
+                            <h4>
+                                <asp:Label ID="Label35" runat="server" Text="Label"></asp:Label>
+                            </h4>
+                            <p><strong>Precio:</strong> $
+                                <asp:Label ID="Label36" runat="server" Text="Label"></asp:Label>
+                            </p>
+                        </div>
+
+                             <asp:Button class="btn-comprar" ID="Button18" runat="server" Text="Comprar ahora" />
+                    </article>
+                    <!-- fin tarjeta -->
+                </section>
                 <!-- seccion accesorios -->
                 <h2 id="seccion7">Accesorios</h2>
-                <div class="seccion">
-                </div>
-            </div>
+                <section class="section">
+                     <!-- Inicio tarjeta -->
+                    <article class="card">
+                        <img src="img/productos/Accesorios/cincho para hombre.jpg"
+                            alt="camisa" />
+
+                        <div class="product-info">
+                            <h4>
+                                <asp:Label ID="Label37" runat="server" Text="Label"></asp:Label>
+                            </h4>
+                            <p><strong>Precio:</strong> $
+                                <asp:Label ID="Label38" runat="server" Text="Label"></asp:Label>
+                            </p>
+                        </div>
+
+                             <asp:Button class="btn-comprar" ID="Button19" runat="server" Text="Comprar ahora" />
+                    </article>
+                    <!-- fin tarjeta -->
+                    <!-- Inicio tarjeta -->
+                    <article class="card">
+                        <img src="img/productos/Accesorios/Reloj de hombre.jpg"
+                            alt="camisa" />
+
+                        <div class="product-info">
+                            <h4>
+                                <asp:Label ID="Label39" runat="server" Text="Label"></asp:Label>
+                            </h4>
+                            <p><strong>Precio:</strong> $
+                                <asp:Label ID="Label40" runat="server" Text="Label"></asp:Label>
+                            </p>
+                        </div>
+
+                             <asp:Button class="btn-comprar" ID="Button20" runat="server" Text="Comprar ahora" />
+                    </article>
+                    <!-- fin tarjeta -->
+                    <!-- Inicio tarjeta -->
+                    <article class="card">
+                        <img src="img/productos/Accesorios/reloj de mujer.jpg"
+                            alt="camisa" />
+
+                        <div class="product-info">
+                            <h4>
+                                <asp:Label ID="Label41" runat="server" Text="Label"></asp:Label>
+                            </h4>
+                            <p><strong>Precio:</strong> $
+                                <asp:Label ID="Label42" runat="server" Text="Label"></asp:Label>
+                            </p>
+                        </div>
+
+                             <asp:Button class="btn-comprar" ID="Button21" runat="server" Text="Comprar ahora" />
+                    </article>
+                    <!-- fin tarjeta -->
+                </section>
+
+            </main>
 
             <!-- Al pulsar ctrl+u se muestra el boton -->
             <a class="admin-manager hidden" href="./Admin/administrador_usuarios.aspx">⚙️</a>
