@@ -61,7 +61,7 @@ namespace BlueStore.Admin
                 sexo = "hombre";
             if (rdbMujer.Checked == true)
                 sexo = "mujer";
-
+            // ! =
             if (id == "" && nombre != "" && apellido != ""
                 && correo != "" && password != "" && sexo != "")
             {

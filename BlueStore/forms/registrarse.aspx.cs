@@ -79,8 +79,6 @@ namespace BlueStore.forms
                 {
                     lblMensaje.Text = "No se puedo registrar, revise el formulario e intente de nuevo";
                 }
-                   
-                
             }
         }
 

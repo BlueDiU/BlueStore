@@ -231,7 +231,7 @@ namespace BlueStore
             {
                 int id = ObtenerId(nombre);
 
-                if (us.ValidarUsuario(nombre, password) == true && total == "")
+                if (us.ValidarUsuario(nombre, password) == true)
                 {
                     us.IngresarPago(total, id);
                     lblConfirmacion.Text = "Pago realizado con éxito 🎉";
